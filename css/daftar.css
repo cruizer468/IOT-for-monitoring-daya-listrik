@@ -1,0 +1,78 @@
+*{
+    margin: auto;
+    font-family: serif, Times, Georgia;
+}
+
+body{
+    background-image: url(../images/Bgdaftar.jpg);
+    background-repeat: repeat; 
+    background-size: cover; 
+
+}
+
+h1{
+	font-family: serif;
+	font-size: 30pt;
+	padding: 	10px;
+}
+input[type="submit"]{
+
+background:#d81346;
+        color: #fff;
+        text-decoration: none;
+        padding:0px 30px;
+        text-align: center;
+        font-size: 17px;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        cursor:pointer;
+        height: 45px;
+        margin-bottom: 15px;
+         -webkit-appearance: none;
+}
+
+input[type="reset"]{
+
+background:#d81346;
+        color: #fff;
+        text-decoration: none;
+        padding:0px 30px;
+        text-align: center;
+        font-size: 17px;
+        display: inline-block;
+        width: 30%;
+        border: none;
+        cursor:pointer;
+        height: 45px;
+        margin-bottom: 15px;
+         -webkit-appearance: none;
+}
+
+input[type="text"] {
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    width: 155%;
+    font-size: 15px;
+    padding: 0px 15px;
+    color: #304659;
+    height: 45px;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+input[type="password"] {
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    width: 155%;
+    font-size: 15px;
+    padding: 0px 15px;
+    color: #304659;
+    height: 45px;
+    text-align: left;
+    -webkit-appearance: none;
+}

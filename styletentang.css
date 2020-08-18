@@ -1,0 +1,75 @@
+* {
+  margin: auto;
+
+}
+body{
+  background-image:  url('images/back2.jpg;'); 
+}
+section { /*berlaku untuk semua section */
+  padding: 50px; /* atas bawah 50 pixel */
+  text-align: left; /* supaya posisinya ditengah */
+}
+section .content { /* setiap section yg didalamnya ada kelas content maka ukurannya 1100 pixel */
+  width: 1200px;
+
+}
+h1 {
+  font-size: 40pt;
+  color:navy;
+  text-align: center;
+}
+h2 {
+  color:navy;
+  text-align: center;
+}
+h3 {
+  font-size: 20pt;
+  color:navy;
+  text-align: center; 
+}
+.left { /* melayang ke kiri */
+  float: left;
+}
+#section2 .left {
+  width: 400px; /*1100 px : 4 = 275 px */
+}
+
+.clear { /* membersihkan di kanan kiri */
+  clear: both;
+}
+.rounded {
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px; /* agar ujung tidak lancip */
+}
+.clear { /* membersihkan di kanan kiri */
+  clear: both;
+}
+
+.topnav {
+  background-color: #0047b3;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: yellow;
+  color: black;
+
+}

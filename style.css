@@ -1,0 +1,230 @@
+* {
+	margin: auto;
+	font-family: sans-serif, Tahoma, Arial;
+	font-size: 14pt;
+}
+
+#container {
+
+}
+
+section { /*berlaku untuk semua section */
+	
+	padding: 50px; /* atas bawah 50 pixel */
+	text-align: left; /* supaya posisinya ditengah */
+}
+section .content { /* setiap section yg didalamnya ada kelas content maka ukurannya 1100 pixel */
+	width: 1100px;
+
+}
+h2 {
+	font-size: 40pt;
+	color:white;
+
+	}
+    h3{
+    font-size: 30px;
+}
+h1 {
+	font-size: 70pt;
+	color:white;
+	}
+h4{
+	font-size: 12;
+}
+
+p{
+font-size: 14pt;
+	color:black;
+}
+a {
+	color: #ff5483;
+	text-decoration: none;
+
+}	
+a:hover {
+	text-decoration: underline;
+}
+
+.left { /* melayang ke kiri */
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear { /* membersihkan di kanan kiri */
+	clear: both;
+}
+#section2 .left {
+	width: 225px; /*1100 px : 4 = 275 px */
+	height: 20px;
+}
+#section3 .right{ 
+	width: 225px;
+	height: 10px;
+}
+#section3 .center{ 
+	width: 525px;
+	height: 40px;
+
+}
+.rounded {
+	padding: 25px;
+	background-color: white;
+	border-radius: 5px; /* agar ujung tidak lancip */
+}
+
+#section2 {
+	background-color:#0073e6;
+	background: url('images/listrik.jpg') center fixed;background-size:cover;
+	background-repeat: no-repeat; /*gambarnya tidak duplicate*/
+	background-position: center; /*posisi gambar ada di center*/
+	min-height: 500px; /*gambarnya fit di 652 pixel*/
+}
+/*#section2 {
+	color: #838383;
+	position: fixed;
+}*/
+/* Place the navbar at the bottom of the page, and make it stick */
+.topnav {
+  background-color: ;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: non
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: yellow;
+  color: black;
+
+}
+
+.form-control {
+    
+    width: 70%;
+    height: 34px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-control1 {
+    display: block;
+    width: 25%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input[type="text"] {
+    
+    display: block;
+    width: 25%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input[type="submit"]{
+    background: #d81346;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #333333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width:  26%;
+
+}
+
+body {
+    background-color: #fff;
+    font: normal 16px/22px Lato;
+    color: #555;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+}
+    
+.spacer {
+    padding: 200px 0;
+}
+
+.clear { /* membersihkan di kanan kiri */
+	clear: both;
+}
+.img-small{
+  max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
